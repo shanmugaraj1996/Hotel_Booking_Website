@@ -1,13 +1,13 @@
-body {
-    height: 100%;
-    margin: 0px;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.loader {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 12px solid #f3f3f3;
-    border-top: 12px solid #444444;
-    margin: 18% auto;
-}
+               <head>
+               <title>loader</title>
+                              <link rel="stylesheet" href="/styles/loader.css">
+                                                                              </head>
+
+                                                                                <body>
+                                                                                <div class="loader"></div>
+                                                                                                      </body>
+
+                                                                                                        </html> 
