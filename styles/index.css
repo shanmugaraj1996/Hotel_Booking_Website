@@ -1,15 +1,46 @@
-.search{
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 380px;
-    background-size: cover;
-}
-.city{
-    margin-left:15%;
-    margin-right:15%;
-}
-img{
+
+.hotels{
+    height: 150px;
+    width: 150px;
     padding: 4%;
     border-radius: 25%;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+    background: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    height: 380px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relatived;
+
+}
+.hotels-list{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#search-bar{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 25%;
+
+
+}
+#veiw-more{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
 }
