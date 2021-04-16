@@ -1,7 +1,40 @@
-.content{
-    margin: 2%;
+.views{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
-#hotel-details{
-    background-color:rgb(132,136,139);
+.view{
+    margin: 1%;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.Lsit-view{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotel-details{
+    margin: 2%;
     width: 40%;
+    background-color:  rgb(132,136,139);
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.hotels{
+    height: 250px;
+    width: 250px;
+
+}
+#map-view{
+    display: none;
 }
